@@ -63,6 +63,9 @@ chmod +x files/etc/AdGuardHome-mosdns.yaml
 curl -L -o files/etc/AdGuardHome-dns.yaml https://git.kejizero.online/zhao/files/raw/branch/main/etc/AdGuardHome-dns.yaml
 chmod +x files/etc/AdGuardHome-dns.yaml
 
+# default-settings
+git clone --depth=1 -b dev https://github.com/oppen321/default-settings package/default-settings
+
 # default_set
 mkdir -p files/etc/config
 curl -L -o files/etc/config/default_dhcp.conf https://raw.githubusercontent.com/oppen321/ZeroWrt/refs/heads/master/files/default_dhcp.conf
