@@ -8,8 +8,8 @@ on:
 env:
   REPO_URL: https://github.com/openwrt/openwrt
   REPO_BRANCH: openwrt-24.10
-  CONFIG_FILE: configs/7621.config
-  DIY_SCRIPT: diy/diy-bypass.sh
+  CONFIG_FILE: configs/mt7621.config
+  DIY_SCRIPT: diy/diy-script.sh
   CLASH_KERNEL: ramips
   CACHE_TOOLCHAIN: true
   UPLOAD_BIN_DIR: false
