@@ -6,15 +6,15 @@ on:
     - cron: 0 19 * * *
 
 env:
-  REPO_URL: https://github.com/coolsnowwolf/lede
-  REPO_BRANCH: master
-  CONFIG_FILE: configs/x86_64.config
+  REPO_URL: https://github.com/openwrt/openwrt
+  REPO_BRANCH: openwrt-24.10
+  CONFIG_FILE: configs/7621.config
   DIY_SCRIPT: diy/diy-bypass.sh
-  CLASH_KERNEL: amd64
+  CLASH_KERNEL: ramips
   CACHE_TOOLCHAIN: true
   UPLOAD_BIN_DIR: false
   FIRMWARE_RELEASE: true
-  FIRMWARE_TAG: X86_64
+  FIRMWARE_TAG: mt7621
   TZ: Asia/Shanghai
 
 jobs:
